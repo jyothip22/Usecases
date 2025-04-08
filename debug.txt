@@ -1,0 +1,9 @@
+print(f"Debug: Built prompt (first 100 chars): {prompt[:100]}...")
+    return prompt
+
+print("Debug: Calling OpenAI ChatCompletion with prompt:")
+print(f"Debug: {prompt[:100]}...")  # Only show first 100 characters
+
+
+  # Debug: Log a snippet of the received response
+        print(f"Debug: Received response (first 100 chars): {content[:100]}...")
