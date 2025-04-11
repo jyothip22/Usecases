@@ -1,0 +1,59 @@
+This document provides some sample communications that can be considered under each category along with explanations:
+1.Rumors and Secrets: 
+  Sample statements:
+a.There's a rumor we are negotiating with LMN holdings - nothing confirmed yet. 
+b.Don't spread this, but there's a rumor circulating about us negotiating with a bank.
+Explanation: Refer to potential deals or market-moving news, even if unconfirmed. Sharing such rumors can lead to market manipulation or selective disclosure.May breach internal policies on 
+information control.
+c. "We need to manage this internally and prevent it from going public.", "Trying to prevent the news from becoming public until the deal closes."
+Explanation: Show intent to withhold material info from public view.Can signal regulatory evasion or failure to meet disclosure obligations.Suggests lack of transparency, which violates 
+financial reporting standards.
+d."A source telling me we might see a big merger next week—keep this between us for now.", "Got a source telling me there's internal chatter about a leadership change at GHI Corp."
+Explanation: Imply access to non-public, material info (e.g., mergers, leadership changes.Sharing such info without disclosure suggests insider trading risk.Phrases like “keep this between us” 
+imply intentional concealment.
+
+2. Category: Gaurantees & Assurances:
+Sample Statements: Deal is a slam dunk, should make killing
+Explanation: This message implies certainity about the outcome of a financial deal, which may mislead clients or reflect inappropriate communication.
+
+3. Category: Front Running:
+Sample statements: Our firm is advising on a confidential take over of JKL company. If you get in now, there's likely big upside.
+Explanation: The message discloses confidential information about a takeover involving JKL company, and encourages someone to act on it before the information becomes public. 
+This is a classic example of insider trading and front running behavior."
+
+4.Category: Gifts & Entertainment
+Sample statements: The massage parlour expense was coded as consulting
+Explanation: Misclassification of personal or entertainment expenses as business consulting suggests a potential compliance violation
+
+5.Category: Outside Business Activity
+Sample statements: "Just closed another deal last weekend. Flipped it for a decent profit.", "If you’re interested, check out my website store—I sell custom apparel."
+Explanation: These statements suggest involvement in unapproved income-generating activities outside the firm, such as real estate or e-commerce, 
+which may violate Outside Business Activity (OBA) policies, raise conflict of interest concerns, or indicate undisclosed use of time and resources.
+
+6.Category: Soliciting with Research:
+Sample statements: "Just sent you a research write-up promising strong returns.", "
+Explanation: These statements suggest using research to solicit clients by making guarantees or promotional claims, which may breach 
+regulatory standards on fair, balanced, and non-misleading communication, and violate rules around improper use of research to drive sales.
+
+7.Inappropriate Use of Discretion: 
+sample statements: "Go ahead and sell whatever—you know what to do.","You decide what to liquidate—we just need the funds today."
+Explanation: These statements indicate unauthorized delegation of trading decisions, suggesting verbal or implied discretion without proper documentation. This may breach 
+firm policies and regulatory requirements, which mandate written discretionary authority to protect clients and ensure suitability and accountability in investment actions.
+
+8.Customer Compliants:
+sample statements: "I never agreed to this fee. I want my money back.", "You basically stole my money with that trade."
+Explanation: These statements express client dissatisfaction, allegations of misconduct, or demands for restitution, which may indicate a reportable customer complaint. 
+Firms are required to document, investigate, and escalate such complaints to comply with FINRA and SEC regulations, and to ensure proper resolution and risk mitigation.
+
+9.
+
+
+
+
+
+
+
+
+
+
+
