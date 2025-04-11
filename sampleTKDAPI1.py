@@ -3,10 +3,13 @@ import requests
 from dotenv import load_dotenv, find_dotenv
 
 # Load environment variables if available.
-_ = load_dotenv(find_dotenv())
+#_ = load_dotenv(find_dotenv())
 
 # Set the custom API endpoint URL.
-CUSTOM_API_URL = os.getenv("CUSTOM_API_URL", "https://your-custom-api.example.com/analyze")
+#CUSTOM_API_URL = os.getenv("CUSTOM_API_URL", "https://your-custom-api.example.com/analyze")
+
+TKD_NAME = "EmailMonitor1"
+sample_input = "Make this deal happen before the market hears the news"
 
 def get_instructions() -> str:
     """
@@ -28,7 +31,7 @@ Analyze the following email content for compliance issues, and provide:
     print(f"DEBUG: Instructions (first 100 chars): {result[:100]}...")
     return result
 
-def invoke_custom_api(instruction: str, input_text: str) -> str:
+def invoke_custom_api(tkd_name: str, input: str, system_prompt: str) -> str:
     """
     Invokes the custom API endpoint by sending a JSON payload with two keys:
       - 'instruction': a string that contains the prompt or instructions.
@@ -48,8 +51,9 @@ def invoke_custom_api(instruction: str, input_text: str) -> str:
         str: The plain text response from the custom API.
     """
     payload = {
-        "instruction": instruction,
-        "input_text": input_text
+        "tkd_name": TKD_NAME,
+        "input": input,
+        "system_prompt": 
     }
     print("DEBUG: Invoking custom API with payload:")
     print(f"DEBUG: {payload}")
@@ -68,14 +72,7 @@ def invoke_custom_api(instruction: str, input_text: str) -> str:
 
 # Example usage:
 if __name__ == "__main__":
-    # Assume we have some sample email body text.
-    sample_email_body = (
-        "Dear Customer,\n\n"
-        "We would like to inform you that your account has been flagged for suspicious activity.\n"
-        "Please contact our compliance department immediately.\n\n"
-        "Best regards,\n"
-        "Your Bank"
-    )
+    
     instructions = get_instructions()
-    analysis = invoke_custom_api(instructions, sample_email_body)
+    analysis = invoke_custom_api(TKD_NAME, sample_input, instructions)
     print("Final Analysis:\n", analysis)
